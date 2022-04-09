@@ -1,0 +1,47 @@
+{
+  "name": "ts-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&webpack-dev-server",
+    "build": "set NODE_ENV=production&&webpack --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.6.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "ejs": "^3.1.6",
+    "ejs-loader": "^0.5.0",
+    "eslint": "^8.10.0",
+    "fastclick": "^1.0.6",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "postcss": "^8.4.7",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.1",
+    "style-loader": "^3.3.1",
+    "svg-sprite-loader": "^6.0.11",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "core-js": "^3.21.1"
+  }
+}

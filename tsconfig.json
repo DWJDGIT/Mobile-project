@@ -1,0 +1,25 @@
+{
+    "include": ["./src/ts/*"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "target": "ES2015", // 指定ts被编译为的es的版本
+        "module": "ES2015", // 使用的模块
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": false,
+        // "lib": ["DOM"], //指定项目要使用的库
+        // "outDir": "./dist", // 指定编译后的文件存放目录
+        // "outFile": "./dist/index.js", // 将代码合并到一个文件
+        "allowJs": true, // 是否允许对JS代码进行编译
+        // "checkJs": true, // 是否允许检查JS代码
+        // "removeComments": true, // 是否移除注释
+        // "noEmit": false, // 不生成编译后的程序
+        "noEmitOnError": true, //有错误时不编译成新的文件
+        // "alwaysStrict": true, // 编译后是否使用严格模式
+        // "noImplicitAny": false, // 主动使用any类型，不推荐
+        // "noImplicitThis": true, // 不允许不明确类型的this
+        // "strictNullChecks": true, // 严格检查空值
+        "suppressImplicitAnyIndexErrors": true,
+        "strict": true // 所有严格检查的总开关, 建议打开，其他的都会进行检查
+    }
+}
